@@ -1,80 +1,86 @@
 package com.group.monitor.entity;
 
+import java.util.Date;
+
 /**
- * @Author:吴宸煊
- * @Date: Created in 13:40 2018/1/17
  * @Description:操作数据库用户实体类
  */
 public class UserPO {
-    /*
-    id编号
-     */
-    private Integer id;
-    /*
-    姓名
-     */
-    private String name;
-    /*
-    密码
-     */
-    private String password;
-    /*
-    性别
-     */
-    private String sex;
-    /*
-    年龄
-     */
-    private Integer age;
 
-    public Integer getId() {
+    private long id;
+
+    private String loginName;
+
+    private String loginPassword;
+
+    private String realName;
+
+    private String mobile;
+
+    private String email;
+
+    private Date genTime;
+
+    public long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(long id) {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getLoginName() {
+        return loginName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setLoginName(String loginName) {
+        this.loginName = loginName;
     }
 
-    public String getPassword() {
-        return password;
+    public String getLoginPassword() {
+        return loginPassword;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setLoginPassword(String loginPassword) {
+        this.loginPassword = loginPassword;
     }
 
-    public String getSex() {
-        return sex;
+    public String getRealName() {
+        return realName;
     }
 
-    public void setSex(String sex) {
-        this.sex = sex;
+    public void setRealName(String realName) {
+        this.realName = realName;
     }
 
-    public Integer getAge() {
-        return age;
+    public String getMobile() {
+        return mobile;
     }
 
-    public void setAge(Integer age) {
-        this.age = age;
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public Date getGenTime() {
+        return genTime;
+    }
+
+    public void setGenTime(Date genTime) {
+        this.genTime = genTime;
     }
 
     @Override
     public String toString() {
         return "UserPO{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", password='" + password + '\'' +
-                ", sex='" + sex + '\'' +
-                ", age=" + age +
+                "loginName='" + loginName + '\'' +
                 '}';
     }
 }

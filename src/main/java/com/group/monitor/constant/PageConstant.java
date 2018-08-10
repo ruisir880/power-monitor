@@ -1,8 +1,6 @@
 package com.group.monitor.constant;
 
 /**
- * @Author:吴宸煊
- * @Date: Created in 13:32 2018/1/17
  * @Description:定义页面常量
  */
 public class PageConstant {

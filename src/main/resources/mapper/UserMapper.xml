@@ -9,7 +9,7 @@
     </insert>
 
     <select id="getUser"  resultType="UserPO" >
-          SELECT name,password,sex,age  FROM USER WHERE NAME=#{name} AND PASSWORD=#{password}
+          SELECT ID, LOGIN_NAME loginName, LOGIN_PASSWORD loginPassword, REALNAME, MOBILE, EMAIL, GEN_TIME genTime  FROM SEC_USER WHERE LOGIN_NAME=#{name} AND LOGIN_PASSWORD=#{password}
     </select>
 
     <select id="getName" parameterType="java.lang.String" resultType="UserPO">

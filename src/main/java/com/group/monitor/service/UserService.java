@@ -3,7 +3,6 @@ package com.group.monitor.service;
 import com.group.monitor.entity.UserPO;
 
 /**
- * @Author:吴宸煊
  * @Date: Created in 13:42 2018/1/17
  * @Description:用户service接口
  */

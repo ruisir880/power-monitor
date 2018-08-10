@@ -6,8 +6,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 /**
- * @Author:吴宸煊
- * @Date: Created in 15:20 2018/1/17
  * @Description:自定义错误页面
  */
 @ControllerAdvice

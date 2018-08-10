@@ -7,8 +7,6 @@ import org.springframework.stereotype.Repository;
 
 
 /**
- * @Author:吴宸煊
- * @Date: Created in 13:39 2018/1/17
  * @Description:用户dao接口
  */
 @Mapper
